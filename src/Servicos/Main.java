@@ -1,7 +1,13 @@
-package entidades;
+package Servicos;
 
+import Servicos.ServicoApuracaoImpl;
+import entidades.Candidato;
+import entidades.Eleicao;
+import entidades.EleicaoEstadual;
+import entidades.Eleitor;
 import repositorios.RepositorioVotos;
-import repositorios.ServicoApuracao;
+import repositorios.RepositorioVotosMemoria;
+import Servicos.ServicoApuracao;
 
 public class Main {
     public static void main(String[] args) {

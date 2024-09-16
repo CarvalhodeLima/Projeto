@@ -1,9 +1,12 @@
-package entidades;
+package repositorios;
 import java.util.HashMap;
 import java.util.Map;
+
+import entidades.Candidato;
+import entidades.Eleitor;
 import repositorios.RepositorioVotos;
 
-class RepositorioVotosMemoria implements RepositorioVotos {
+public class RepositorioVotosMemoria implements RepositorioVotos {
     private Map<String, Candidato> votosEleitores = new HashMap<>();
 
     @Override

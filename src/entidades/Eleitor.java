@@ -1,19 +1,22 @@
 package entidades;
 
 public class Eleitor {
-        private String nome;
-        private String cpf;
+    private String nome;
+    private String cpf;
 
-        public Eleitor(String nome, String cpf) {
-            this.nome = nome;
-            this.cpf = cpf;
-        }
-
-        public String getNome() {
-            return nome;
-        }
-
-        public String getCpf() {
-            return cpf;
-        }
+    public Eleitor(String nome, String cpf) {
+        this.nome = nome;
+        this.cpf = cpf;
     }
+
+    public String getNome() { return nome; }
+    public void setNome(String nome) { this.nome = nome; }
+
+    public String getCpf() { return cpf; }
+    public void setCpf(String cpf) { this.cpf = cpf; }
+
+    @Override
+    public String toString() {
+        return "Eleitor: " + nome + ", CPF: " + cpf;
+    }
+}

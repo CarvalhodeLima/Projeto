@@ -1,31 +1,25 @@
 package entidades;
-import entidades.Candidato;
-import java.util.ArrayList;
-import java.util.HashMap;
+
 import java.util.List;
-import java.util.Map;
 
-public abstract class Eleicao {
-    protected List<Candidato> candidatos = new ArrayList<>();
-    protected Map<Candidato, Integer> votos = new HashMap<>();
+public class Eleicao {
+    protected List<Candidato> candidatos;
 
-    public void adicionarCandidato(Candidato candidato) {
-        candidatos.add(candidato);
-        votos.put(candidato, 0);
+    public Eleicao(List<Candidato> candidatos) {
+        this.candidatos = candidatos;
     }
 
     public List<Candidato> getCandidatos() {
         return candidatos;
     }
 
-    public void registrarVoto(Candidato candidato) {
-        votos.put(candidato, votos.get(candidato) + 1);
+    public void adicionarCandidato(Candidato candidato) {
+        candidatos.add(candidato);
     }
 
-    public Map<Candidato, Integer> getVotos() {
-        return votos;
+    @Override
+    public String toString() {
+        return "Eleicao{" + "candidatos=" + candidatos + '}';
     }
-
-    public abstract String getTipoEleicao();
 }
 

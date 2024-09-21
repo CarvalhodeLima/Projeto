@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbd74540-0709-45b3-b929-2a9febac2fb6" name="Changes" comment="modificado implementações e adicionado pacote de serviços">
-      <change afterPath="$PROJECT_DIR$/src/Servicos/ServicoApuracaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entidades/EleicaoEstadual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entidades/EleicaoMunicipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Servicos/VotacaoServico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entidades/EleicaoNacional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entidades/Voto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositorios/VotosRepositorio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entidades/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servicos/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entidades/RepositorioVotosMemoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repositorios/RepositorioVotosMemoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entidades/ServicoApuracaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entidades/TipoEleicao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositorios/ServicoApuracao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servicos/ServicoApuracao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Servicos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servicos/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Servicos/ServicoApuracao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repositorios/ApuracaoServico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Servicos/ServicoApuracaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entidades/Candidato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entidades/Candidato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entidades/Eleicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entidades/Eleicao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entidades/EleicaoEstadual.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entidades/Eleitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entidades/Eleitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorios/RepositorioVotos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorios/RepositorioVotosMemoria.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +74,15 @@
       <option name="presentableId" value="Default" />
       <updated>1726333393177</updated>
     </task>
+    <task id="LOCAL-00001" summary="modificado implementações e adicionado pacote de serviços">
+      <option name="closed" value="true" />
+      <created>1726526830240</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726526830240</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
